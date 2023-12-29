@@ -1,4 +1,4 @@
-# backups-docker
+# ubuntu-ssh
 
 Ubuntu Docker container with SSH daemon.
 
