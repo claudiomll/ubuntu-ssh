@@ -4,6 +4,7 @@ mkdir -p /root/.ssh
 mkdir -p /home/ubuntu/.ssh
 chmod  0700 /root/.ssh
 chmod  0700 /home/ubuntu/.ssh
+chown ubuntu:root -R /home/ubuntu/
 echo ${ROOT_PUB_KEY} > /root/.ssh/authorized_keys
 echo ${UBUNTU_PUB_KEY} > /home/ubuntu/.ssh/authorized_keys
 
